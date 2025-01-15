@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="slider1.css">
+</head>
+
+<body>
+    <nav>
+        <img src="./cropped-logo-dark.png" class="logo">
+
+        <ul>
+            <li><a href=" #">List Your Venue</a></li>
+            <li><a href="#">List Your Service</a></li>
+            <li><a href="#">Log In/Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide img-size" style="background-image: url(/bnr-1.jpg)"></div>
+            <div class="swiper-slide img-size" style="background-image: url(/bnr-2.jpg)"></div>
+            <div class="swiper-slide img-size" style="background-image: url(/bnr-3.jpg)"></div>
+            <div class="swiper-slide img-size" style="background-image: url(/bnr-4.jpg)"></div>
+            <div class="swiper-slide img-size" style="background-image: url(/bnr-5.jpg)"></div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="autoplay-progress">
+            <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="slide1.js"></script>
+
+</html>
