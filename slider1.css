@@ -24,7 +24,7 @@ nav {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   font-family: "Roboto", serif;
   width: 100%;
-  height: 80px;
+  height: 65px;
   display: flex;
   justify-content: space-between;
   /**to make a space between the content like in the website**/
@@ -33,8 +33,8 @@ nav {
 }
 
 .logo {
-  height: 30px;
-  width: 100px;
+  height: 45px;
+  width: 170px;
 }
 
 nav ul {
@@ -48,7 +48,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #354151;
+  color: white;
   font-weight: bold;
 }
 
