@@ -22,3 +22,30 @@ var swiper = new Swiper(".mySwiper", {
         }
     }
 });
+
+var swiper = new Swiper(".gallery-slider", {
+    spaceBetween: 10, //space between images//
+    grabCursor: true, //cursor can grab the images usually used when not using loop//
+    loop: true, //if loop is true then the images will start from beginning as a loop, but if loop is false then the images stop //
+    centeredSlides: true,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    //breakpoints is the place to change the size of display. when display is not set (0) then it will revert to displaying 1 image, etc)
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        991: {
+            slidesPerView: 4,
+        },
+    },
+});
