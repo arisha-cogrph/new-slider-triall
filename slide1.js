@@ -36,16 +36,17 @@ var swiper = new Swiper(".gallery-slider", {
         el: '.swiper-pagination',
         clickable: true,
     },
-    //breakpoints is the place to change the size of display. when display is not set (0) then it will revert to displaying 1 image, etc)
+    //breakpoints is the place to change the size of display in responsive design (how it shows on different platform). 
+    // when display is not set (0) then it will revert to displaying 1 image, etc)
     breakpoints: {
         0: {
             slidesPerView: 1,
         },
         768: {
-            slidesPerView: 2,
+            slidesPerView: 6,
         },
         991: {
-            slidesPerView: 4,
+            slidesPerView: 8,
         },
     },
 });
