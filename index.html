@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swiper Demo</title>
+    <!--insert box icon style ref AND the javascript ALWAYS BOTH-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="slider1.css">
 </head>
@@ -145,25 +147,45 @@
         </div>
 
         <div class="venue-container">
-            <div class="venue-container1">
-                <h2>Meeting</h2>
+            <div class="venue-container">
+                <div class="venue-container1 div" style="background-image: url(/asset-venuebox/venuebox-7.jpg);
+                background-size: cover; background-repeat: no-repeat;">
+                    <button class="btn">Music
+                    </button>
+                </div>
+                <div class="venue-container1 div" style="background-image: url(/asset-venuebox/venuebox-8.jpg);
+            background-size: cover; background-repeat: no-repeat;">
+                    <button class="btn">Exhibition
+                    </button>
+                </div>
+                <div class="venue-container1 div" style="background-image: url(/asset-venuebox/venuebox-9.jpg);
+            background-size: cover; background-repeat: no-repeat;">
+                    <button class="btn">Others
+                    </button>
+                </div>
             </div>
-            <div class="venue-container1">
-                <h2>Seminar</h2>
+    </section>
+    <!--end-->
+
+    <section class="infobanner" id="infobanner">
+        <div class="infobanner-container">
+            <h2>Why Choose EventID ?</h2>
+            <div class="infobanner-box boxdiv" style="background-color: #FFFFFF;"><box-icon type='solid' name='home'
+                    size="lg" color="#292D32"></box-icon>
             </div>
-            <div class="venue-container1">
-                <h2>Conference</h2>
+            <div class="infobanner-box boxdiv" style="background-color: #FFFFFF;"><box-icon name='wallet-alt'
+                    type='solid' size="lg" color="#292D32"></box-icon>
+            </div>
+            <div class="infobanner-box boxdiv" style="background-color: #FFFFFF;"><box-icon name='link-alt' size="lg"
+                    color="#292D32"></box-icon></i>
             </div>
         </div>
 
+
     </section>
-
-
-
-
-    <!--end-->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="slide1.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 </html>
