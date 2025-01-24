@@ -190,19 +190,179 @@ nav a {
   color: black;
 }
 
-/*info banner container from here*/
-.infobanner-container {
+/*venue container end*/
+
+/*info banner starts here*/
+.infobanner {
+  width: 100%;
+  height: 476px;
   background-color: #D7DCE2;
-  padding: 100px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  gap: 20em;
+  flex-direction: column;
+}
+
+.infobanner h2 {
+  margin-top: 60px;
+  margin-bottom: 28px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Montserrat", serif;
+}
+
+.infobanner .infobannerbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  margin-top: 30px;
+}
+
+.infobanner-box div {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infobannerbox-group .infobanner-box {
+  width: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 120px;
+}
+
+.infobanner-box h3 {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}
+
+.infobanner-box p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: "Montserrat", serif;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/*area*/
+.area {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.area-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
   /*gap for between flexbox*/
 }
 
-.infobanner-box {
-  border-radius: 50%;
-  padding: 10px;
+.area-container1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 40px;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.area-container1 .btn {
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.headingsection {
+  font-family: "Montserrat", serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #354151;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.area-container1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 40px;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.area-container1 .btn {
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.headingsection {
+  font-family: "Montserrat", serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #354151;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*offer starts*/
+.offers {
+  width: 100%;
+  height: 476px;
+  background-color: #D7DCE2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.offers h3 {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}
+
+.offers .offer-group {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.offers .offer {
+  width: 345px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.offer h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  font-family: "Montserrat", serif;
+  text-align: center;
 }
