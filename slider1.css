@@ -421,3 +421,54 @@ nav a {
 .register .register-venue-list {
   background-color: #41989F;
 }
+
+/*from here is the footer section*/
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  height: 355px;
+  background-color: #354151;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.footer .footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-logo .social-media {
+  margin-top: 20px;
+  display: flex;
+  /*if u do this automatically the direciton of the flexbox will be row*/
+  gap: 20px;
+}
+
+.footer-logo .app-store {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.footer .footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links h3 {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.footer-links p {
+  font-family: "Montserrat", serif;
+  font-weight: 100;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
