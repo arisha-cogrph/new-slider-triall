@@ -128,14 +128,14 @@ input::placeholder {
   font-size: 20px;
 }
 
-.home-content .eventtype {
+.home-content .event-type {
   padding: 10px 20px;
   border-radius: 40px;
   border: none;
   font-size: 20px;
 }
 
-.home-content .guest {
+.home-content .guests {
   padding: 10px 20px;
   border-radius: 40px;
   border: none;
